@@ -1,8 +1,8 @@
 class LlmPrices < Formula
   desc "Zero-dependency CLI for comparing LLM API pricing across providers"
   homepage "https://github.com/benbencodes/llm-prices"
-  url "https://github.com/benbencodes/llm-prices/archive/refs/tags/v0.1.22.tar.gz"
-  sha256 "aa59ac432dee72a83bac05f0936ccc92779f838d5e16a9c48bfabf1cf6b022d2"
+  url "https://github.com/benbencodes/llm-prices/archive/refs/tags/v0.1.23.tar.gz"
+  sha256 "07605500792bb0128e7e48076aa80ff6749550c0611116df0c1edb930f8b5cd5"
   license "MIT"
   head "https://github.com/benbencodes/llm-prices.git", branch: "main"
 
