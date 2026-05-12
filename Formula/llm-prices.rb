@@ -1,8 +1,8 @@
 class LlmPrices < Formula
   desc "Zero-dependency CLI for comparing LLM API pricing across providers"
   homepage "https://benbencodes.github.io/llm-prices/"
-  url "https://github.com/benbencodes/llm-prices/archive/refs/tags/v0.1.28.tar.gz"
-  sha256 "38282df86c07003a03c3620fec9b3f493f7ecb28bdcfa7a41fda73cf7ce7e868"
+  url "https://github.com/benbencodes/llm-prices/archive/refs/tags/v0.1.29.tar.gz"
+  sha256 "3a0c48cc1c98bd3393998f404e9b73a6415778f81dfc7998fa53fcd423e2ecb9"
   license "MIT"
   head "https://github.com/benbencodes/llm-prices.git", branch: "main"
 
@@ -14,6 +14,6 @@ class LlmPrices < Formula
   end
 
   test do
-    assert_match "OpenAI", shell_output("#{bin}/llm-prices list")
+    assert_match "OpenAI", shell_output("\#{bin}/llm-prices list")
   end
 end
